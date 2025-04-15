@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook-Connexion ou inscription</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h3 class="lang">Français (France)</h3>
+        <div class="logo">
+            <div class="f">f</div>
+        </div>
+        <input type="text" placeholder="Numéro mobile ou e-mail" id="email">
+        <div class="password-container">
+            <input type="password" placeholder="Mot de passe" id="password">
+            <span class="toggle-password" onclick="togglePassword()">👁️</span>
+        </div>
+        <button class="login-btn" onclick="login()">Se connecter</button>
+        <a href="#" class="forgot">Mot de passe oublié?</a>
+        <button class="signup-btn">Créer un compte</button>
+        <footer>∞ Meta</footer> 
+    </div>
+      
+    <script src="script.js"></script>
+</body>
+</html>
